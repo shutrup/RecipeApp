@@ -5,6 +5,7 @@ struct HomeUI: View {
         NavigationView {
             Text("Hello")
                 .toolbar {
+                    
                     ToolbarItem(placement: .principal) {
                         HStack(spacing: 14) {
                             toolbarImage("location.viewfinder")
